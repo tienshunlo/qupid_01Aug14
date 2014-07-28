@@ -163,15 +163,18 @@ img {
 
 }
 
-.user_profile_btn{
-  height: 30px;
-  width: 30px;
+
+
+
+.user_profile_btn_left {
+  height: 40px;
+  width: 40px;
   color: #f1f1f1;
-  padding: 0.5em 0.5em;
-  padding-top: 5px;
-  margin-right: 1px;
+  /*padding: 0.5em 0.7em;*/
+  /*margin-right: 1px;*/
+  margin-left: 40px;
   border-radius: 50%;
-  background: #FF33FF;
+  background: #FF8CFF;
   display: inline-block;
   text-decoration: none;
   -webkit-box-shadow: inset 0px -2px #FF33FF;
@@ -179,30 +182,72 @@ img {
   box-shadow: inset 0px -2px #FF33FF;
 }
 
-.user_profile_btn:hover {
+.user_profile_btn_left i{
+ text-align: center;
+ margin-left: 13px;
+ margin-top: 13px;
+}
+
+.user_profile_btn_left:hover {
   background: #FF33FF;
 }
 
-.user_profile_btn i{
-  /*float: left;*/
-  /*background: blue;*/
-  /*position: relative;*/
-  /*width: 110px;*/
-  /*height: 120px;*/
-  text-align: center;
-  margin-left:8px;
-  margin-top: 9px;
+.user_profile_btn_right {
+  height: 40px;
+  width: 40px;
+  color: #f1f1f1;
+  /*padding: 0.5em 0.7em;*/
+  /*margin-right: 1px;*/
+  margin-left: 40px;
+  border-radius: 50%;
+  background: #FF33FF;
+  display: inline-block;
+  text-decoration: none;
+  /*-webkit-box-shadow: inset 0px -2px #FF33FF;*/
+  /*-moz-box-shadow: inset 0px -2px #FF33FF;*/
+  /*box-shadow: inset 0px -2px #FF33FF;*/
 }
 
-.user_profile img{
-  border: 5px solid rgba(255, 0, 112, 0.6);
-  max-width: 75px;
-  border-radius: 50%;
-  margin-top: 5px; 
-  margin-bottom: 5px; 
-  margin-left: 120px;
-  box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);
+
+
+.user_profile_btn_right i{
+  text-align: center;
+  margin-left: 13px;
+ margin-top: 13px;
 }
+
+
+
+
+.user_profile img{
+border: 5px solid rgba(255, 0, 112, 0.6);
+max-width: 65px;
+border-radius: 50%;
+margin-top: 10px;
+margin-bottom: 5px;
+margin-left: 45px;
+box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);
+}
+
+
+/* 用戶資料 - 回答過的問題 */
+
+
+.question_items {
+  /*position: absolute;*/
+  /*top: 200px;*/
+  left: 130px;
+  margin-top: 40px;
+  margin-right: 30px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.question_items li{
+  display: inline-block;
+  margin: -17px -10px -16px 24px;
+}
+
 
 
 .user_question_items{
@@ -224,6 +269,7 @@ img {
   text-align: center;
   margin-top: 8px;
 }
+
 .user_question_items_btn{
   height: 60px;
   width: 60px;
@@ -240,6 +286,8 @@ img {
   box-shadow: inset 0px -2px #FF33FF;
 }
 
+
+
 .user_question_items_btn:hover {
   background: #FF33FF;
 }
@@ -249,29 +297,28 @@ img {
 }
 
 
-.question_items img{
-  border: 5px solid rgba(255, 0, 112, 0.6);
-  border-radius: 50%;
-  margin-top: 5px; 
-  margin-bottom: 5px; 
-  float:left;
-  box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);
+.user_questions{
+  /*float: left;*/
+  /*background: blue;*/
+  /*position: relative;*/
+  /*width: 110px;*/
+  height: 120px;
+  text-align: center;
+  /*margin-right: 10px;*/
 }
 
-.question_items {
-  /*position: absolute;*/
-  /*top: 200px;*/
-  left: 130px;
-  margin-top: 40px;
-  margin-right: 25px;
-  margin-bottom: 0;
-  display: inline-block;
+.user_question_item{
+  /*float: left;*/
+  /*background: blue;*/
+  /*position: relative;*/
+  /*width: 110px;*/
+  height: 120px;
+  /*text-align: center;*/
+  /*margin-right: 10px;*/
 }
 
-.question_items li{
-  display: inline-block;
-  margin: -17px -10px -16px 24px;
-}
+
+
 
 /* 配對名單 */
 
@@ -291,6 +338,7 @@ img {
 
 }
 
+     /* 配對名單  - 左側 */
 .match_profile_left{
   float: left;
   /*background: blue;*/
@@ -307,13 +355,16 @@ img {
   font-size: 14px;
 }
 
-
+     /* 配對名單  - 左側  - 個人照片*/
 
 .match_profile_image{
   position:absolute; 
   top:10px; 
   left:10px; 
  }
+
+
+     /* 配對名單  - 右側 */
 
 .match_profile_right{
   float:right;
@@ -327,23 +378,24 @@ img {
   font-size: 14px;
 }
 
+
+     /* 配對名單  - 右側 - 姓名、年齡、地區*/
+
 .match_profile_name_age_lacation{
   margin-top: 10px; 
   font-size: 14px;
   font-weight: bold;
 }
 
+   /* 配對名單  - 右側 - 重要問題*/
 .match_profile_questionnaire{
   margin-top: 10px; 
   font-size: 14px;
 }
 
-.match_profile_right li{
-  display: inline-block;
-  margin: -17px -10px -16px 24px;
-}
+ /* 配對名單  - 右側 - 今日問題、傳訊息、加入好友*/
 
-.match_profile_right_botton {
+.match_profile_right_button{
   position: absolute;
   top: 85px;
   left: 130px;
@@ -352,12 +404,25 @@ img {
   display: inline-block;
 }
 
+ 
+.match_profile_right_button li{
+  display: inline-block;
+  margin: -17px -10px -16px 24px;
+}
+
+
+
+.match_profile_right_button i{
+ margin-left: 13px;
+ margin-top: 13px;
+}
+
 
 .btn {
-  /*height: 40px;*/
-  /*width: 40px;*/
+  height: 40px;
+  width: 40px;
   color: #f1f1f1;
-  padding: 0.5em 0.7em;
+  /*padding: 0.5em 0.7em;*/
   margin-right: 1px;
   border-radius: 50%;
   background: #FF8CFF;
@@ -367,6 +432,9 @@ img {
   -moz-box-shadow: inset 0px -2px #FF33FF;
   box-shadow: inset 0px -2px #FF33FF;
 }
+
+
+
 
 .btn:hover {
   background: #FF33FF;
