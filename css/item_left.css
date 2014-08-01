@@ -129,6 +129,24 @@ header {
   width: 320px;
 }
 
+.content-chat {
+  min-height: 100%;
+  background: #fff;
+  width: 320px;
+}
+
+.content-relationship {
+  min-height: 100%;
+  background: #fff;
+  width: 320px;
+}
+
+.content-marriage {
+  min-height: 100%;
+  background: #fff;
+  width: 320px;
+}
+
 nav {
   width: 150px;
   position: absolute;
