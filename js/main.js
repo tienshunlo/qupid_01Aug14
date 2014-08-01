@@ -43,12 +43,24 @@ $(document).ready(function() {
    content2.hide();
    content3.show();});
    
-  
+   menu.on("click", function(){
+      content.toggleClass('open');
+      content.stop().animate({
+        marginLeft: 0
+      }, 500);
+    
+      menu.stop().animate({
+        left: -200
+      }, 500); });
  
 
   $('.hamburger').on('click', function(event) {
     event.preventDefault();
     content.toggleClass('open');
+
+
+
+
     if (content.hasClass('open')) {
       menu.stop().animate({
         left: 0
