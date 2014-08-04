@@ -117,8 +117,8 @@ header {
   text-align: center;
   line-height: 40px;
   display: inline-block;
-  background: #FF33FF;
-  color: #f1f1f1;
+  /*background: #FF33FF;*/
+  color: #A8A7A7;
   margin: 5px;
   border-radius: 5px;
 }
@@ -182,16 +182,18 @@ li {
   }
 
 .user_profile_top {
- float:right;
+ /*float:right;*/
   /*background: red;*/
   width: 210px;
   /*height: 120px;*/
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 
 
 .user_profile_top_button {
- position: absolute;
+ /*position: absolute;*/
 top: 60px;
 width: 300px;
 padding-left: 0px;
