@@ -125,25 +125,25 @@ header {
 
 .content {
   min-height: 100%;
-  background: #fff;
+  background: #f4f4f4;
   width: 320px;
 }
 
 .content-chat {
   min-height: 100%;
-  background: #fff;
+  background: #f4f4f4;
   width: 320px;
 }
 
 .content-relationship {
   min-height: 100%;
-  background: #fff;
+  background: #f4f4f4;
   width: 320px;
 }
 
 .content-marriage {
   min-height: 100%;
-  background: #fff;
+  background: #f4f4f4;
   width: 320px;
 }
 
@@ -169,11 +169,53 @@ li {
 /* 用戶資料 */
 
 .user_profile{
-  background: #FF8CFF;
-  border-radius: 6px;
+  background: #FFFFFF;
+  border-radius: 3px;
   width: 320px;
   height: 95px;
+  background: #FFFFFF;
+/* border: 3px solid #000000; */
+  border: 1px solid rgba(0,0,0,0.3);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
   }
+
+.user_profile_top {
+ float:right;
+  /*background: red;*/
+  width: 210px;
+  /*height: 120px;*/
+}
+
+
+
+.user_profile_top_button {
+ position: absolute;
+top: 60px;
+width: 300px;
+padding-left: 0px;
+left: 20px;
+margin-top: 0;
+margin-bottom: 0;
+display: inline-block;
+border-top: 1px solid #e7e7e7;
+}
+
+ 
+.user_profile_top_button li{
+  display: inline-block;
+  margin: -2px 0px 0px 42px;
+}
+
+
+
+.user_profile_top_button i{
+ margin-left: 13px;
+ margin-top: 5px;
+}
+
+
 
 .user_profile_btn_right {
   height: 40px;
@@ -226,20 +268,21 @@ li {
 
 
 .match_profile {
-  height: 120px;
-  /*width:320px;*/
+  height: 100px;
+  width:300px;
   background: #FFFFFF;
   /*border: 3px solid #000000;*/
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   /*behance*/
- /*box-shadow: 0 1px 0px 0px #f1f1f1, inset 0 0px 0px #f1f1f1;*/
+  /*box-shadow: 0 1px 0px 0px #f1f1f1, inset 0 0px 0px #f1f1f1;*/
   /*box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);*/
   /*border-radius: 10px;*/
   padding: 0px;
-  margin: 0 auto ;
+  /*margin: 0 auto ;*/
   position: relative;
-  margin-top: 2px;
+  margin-top: 10px;
   border-radius: 3px;
+  margin-left: 9px;
 }
 
 /* 配對名單  - 左側 */
@@ -247,8 +290,8 @@ li {
   float: left;
   /*background: blue;*/
   position: relative;
-  width: 110px;
-  height: 120px;
+  width: 80px;
+  /*height: 120px;*/
   text-align: center;
 }
 
@@ -259,21 +302,24 @@ li {
 
 .match_profile_left img{
   position:absolute; 
-  top:10px; 
-  left:10px; 
+  top:12px; 
+  left:15px; 
+  width: 70%
    }
 
 .match_profile_left p{
-  margin-top: 100px; 
-  font-size: 14px;
+  margin-top: 80px;
+  margin-left: 10px; 
+  font-size: 12px;
 }
-     /* 配對名單  - 右側 */
+
+/* 配對名單  - 右側 */
 
 .match_profile_right{
   float:right;
   /*background: red;*/
   width: 210px;
-  height: 120px;
+  /*height: 120px;*/
 }
 
 .match_profile_right p{
@@ -291,56 +337,59 @@ li {
 }
 
    /* 配對名單  - 右側 - 重要問題*/
-.match_profile_questionnaire{
+.match_profile_Q{
   margin-top: 10px; 
   font-size: 14px;
 }
 
  /* 配對名單  - 右側 - 今日問題、傳訊息、加入好友*/
 
-.match_profile_right_button{
+.match_profile_right_button {
   position: absolute;
-  top: 85px;
-  left: 60px;
+  top: 72px;
+  width: 200px;
+  padding-left: 0px;
+  /*left: 60px;*/
   margin-top: 0;
   margin-bottom: 0;
   display: inline-block;
+  border-top: 1px solid #e7e7e7;
 }
 
  
 .match_profile_right_button li{
   display: inline-block;
-  margin: -17px -10px -16px 24px;
+  margin: -3px 25px 0px 0px;
 }
 
 
 
 .match_profile_right_button i{
  margin-left: 13px;
- margin-top: 13px;
+ margin-top: 5px;
 }
 
 
 .btn {
-  height: 40px;
-  width: 40px;
-  color: #f1f1f1;
+  /*height: 40px;*/
+  /*width: 40px;*/
+  color: #A8A7A7;
   /*padding: 0.5em 0.7em;*/
-  margin-right: 1px;
-  border-radius: 50%;
-  background: #FF8CFF;
+  /*margin-right: 1px;*/
+  /*border-radius: 50%;*/
+  /*background: #FF8CFF;*/
   display: inline-block;
   text-decoration: none;
-  -webkit-box-shadow: inset 0px -2px #FF33FF;
-  -moz-box-shadow: inset 0px -2px #FF33FF;
-  box-shadow: inset 0px -2px #FF33FF;
+  /*-webkit-box-shadow: inset 0px -2px #FF33FF;*/
+  /*-moz-box-shadow: inset 0px -2px #FF33FF;*/
+  /*box-shadow: inset 0px -2px #FF33FF;*/
 }
 
 
 
 
 .btn:hover {
-  background: #FF33FF;
+  color: #555;
 }
 
 
