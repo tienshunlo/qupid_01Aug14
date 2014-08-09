@@ -50,7 +50,7 @@ $(document).ready(function() {
       }, 500);
     
       menu.stop().animate({
-        left: -200
+        left: -300
       }, 500); });
  
 
@@ -66,11 +66,11 @@ $(document).ready(function() {
         left: 0
       }, 500);
       content.stop().animate({
-        marginLeft: 200
+        marginLeft: 300
       }, 500);
     } else {
       menu.stop().animate({
-        left: -200
+        left: -300
       }, 500);
       content.stop().animate({
         marginLeft: 0

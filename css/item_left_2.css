@@ -130,45 +130,17 @@ header {
   width: 320px;
 }
 
-.content-chat {
+.content-chat, .content-relationship, .content-marriage, .content-perfect, .content-questionnaire, .content-question   {
   min-height: 100%;
   background: #f4f4f4;
   /*width: 320px;*/
 }
 
-.content-relationship {
-  min-height: 100%;
-  background: #f4f4f4;
-  /*width: 320px;*/
-}
 
-.content-marriage {
-  min-height: 100%;
-  background: #f4f4f4;
-  /*width: 320px;*/
-}
-
-.content-perfect {
-  min-height: 100%;
-  background: #f4f4f4;
-  /*width: 320px;*/
-}
-
-.content-questionnaire {
-  min-height: 100%;
-  background: #f4f4f4;
-  /*width: 320px;*/
-}
-
-.content-question {
-  min-height: 100%;
-  background: #f4f4f4;
-  /*width: 320px;*/
-}
 
 
 nav {
-  width: 200px;
+  width: 300px;
   position: absolute;
   top: 0;
   left: -311px;
@@ -217,6 +189,10 @@ li {
 }
 
 
+.fixed-items-relationship{
+  margin-left: 0px;
+  color: #A8A7A7;
+}
 
 .user-profile > .bottom {
    width: 280px;
