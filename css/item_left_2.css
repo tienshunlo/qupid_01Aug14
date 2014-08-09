@@ -148,6 +148,25 @@ header {
   /*width: 320px;*/
 }
 
+.content-perfect {
+  min-height: 100%;
+  background: #f4f4f4;
+  /*width: 320px;*/
+}
+
+.content-questionnaire {
+  min-height: 100%;
+  background: #f4f4f4;
+  /*width: 320px;*/
+}
+
+.content-question {
+  min-height: 100%;
+  background: #f4f4f4;
+  /*width: 320px;*/
+}
+
+
 nav {
   width: 200px;
   position: absolute;
@@ -393,13 +412,15 @@ color: #A8A7A7;
   position: relative;
   width: 80px;
   text-align: center;
+  margin-top: 4px;
 }
 
 
 
 .Qbook .right{
-  float:right;
+  float:left;
   width: 210px;
+  
 }
 
 .Qbook a {
@@ -418,11 +439,177 @@ padding-top: 10px;
 
 }
 
-.Qbook .left p {
-margin-top: 75px;
-margin-left: 6px;
-font-size: 12px;
+.Qbook .right p {
+margin-top: 6px;
+font-size: 14px;
 }
+
+
+
+
+/* 問券 */
+
+
+.questionnaire {
+  height: 30px;
+  width:300px;
+  background: #FFFFFF;
+  /*border: 3px solid #000000;*/
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  /*behance*/
+  /*box-shadow: 0 1px 0px 0px #f1f1f1, inset 0 0px 0px #f1f1f1;*/
+  /*box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);*/
+  /*border-radius: 10px;*/
+  padding: 0px;
+  margin: 10px auto ;
+  position: relative;
+  border-radius: 3px;
+}
+
+.questionnaire .left{
+  float: left;
+  position: relative;
+  width: 40px;
+  text-align: center;
+  margin-top: 4px;
+}
+
+
+
+.questionnaire .right{
+  float:left;
+  /*width: 210px;*/
+  height: 100%;
+}
+
+.questionnaire a {
+ position: absolute; 
+ top: 12px;
+ left:15px; 
+width: 56px;
+height: 46px;
+text-align: center;
+/*margin-left: 0px;*/
+display: inline-block;
+border: 1px solid #e7e7e7;
+color: #A8A7A7;
+border-radius: 3px;
+padding-top: 10px;
+
+}
+
+.questionnaire .right p {
+margin: 5px auto;
+font-size: 14px;
+}
+
+
+
+
+
+/* 問題 */
+
+.content-question .details{
+  overflow:hidden;
+  min-height:30px;
+  width:300px;
+  background: #FFFFFF;
+  /*border: 3px solid #000000;*/
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  /*behance*/
+  /*box-shadow: 0 1px 0px 0px #f1f1f1, inset 0 0px 0px #f1f1f1;*/
+  /*box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);*/
+  /*border-radius: 10px;*/
+  padding: 0px;
+  margin: 10px auto ;
+  position: relative;
+  border-radius: 3px;
+  
+}
+
+.content-question .details .left{
+  float: left;
+  position: relative;
+  width: 40px;
+  text-align: center;
+  margin-top: 4px;
+
+}
+
+.content-question .details .right{
+  float:left;
+  width: 240px;
+  height: 100%;
+  
+}
+
+.content-question .details .right p {
+margin: 5px auto;
+font-size: 14px;
+border-bottom: 1px;
+}
+
+
+
+.content-question .answers {
+  overflow:hidden;
+  min-height:30px;
+  width:260px;
+  background: #FFFFFF;
+  /*border: 3px solid #000000;*/
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  /*behance*/
+  /*box-shadow: 0 1px 0px 0px #f1f1f1, inset 0 0px 0px #f1f1f1;*/
+  /*box-shadow: 0 1px 0px 0px rgba(0,0,0,.5), inset 0 0px 0px rgba(0,0,0,.65);*/
+  /*border-radius: 10px;*/
+  padding: 0px;
+  margin: 10px auto ;
+  position: relative;
+  border-radius: 3px;
+  
+}
+
+
+
+.content-question .answers .left{
+  float: left;
+  position: relative;
+  width: 40px;
+  text-align: center;
+  margin-top: 4px;
+
+}
+
+
+
+.content-question .answers .right{
+  float:left;
+  width: 150px;
+  height: 100%;
+  
+}
+
+.content-question .answers a {
+ /*position: absolute; */
+ /*top: 12px;*/
+ /*left:15px; */
+ /*width: 56px;*/
+ /*height: 46px;*/
+ /*text-align: center;*/
+ /*margin-left: 0px;*/
+ /*display: inline-block;*/
+ /*border: 1px solid #e7e7e7;*/
+ /*color: #A8A7A7;*/
+ /*border-radius: 3px;*/
+ /*padding-top: 10px;*/
+}
+
+.content-question .answers .right p {
+margin: 5px auto;
+font-size: 14px;
+border-bottom: 1px;
+}
+
 
 /* 左側主選單 */
 
