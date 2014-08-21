@@ -224,7 +224,8 @@ li {
 /* 用戶資料 */
 
 .user-profile{
-  background: #a164a5;
+  /*background: #a164a5;*/
+  background:#BE74CC;
   /*border-radius: 3px;*/
   width: 320px;
   height: 95px;
@@ -814,14 +815,21 @@ background: #fa96b5;
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 2px solid #d3bee1;
-  /*background: #fa96b5;*/
+  border: 2px solid #E7D9E0;
+  background: #BE74CC;
   text-align: center;
-  color: #d3bee1;
+  color: #E7D9E0;
   /*margin-left: 25px;*/
   margin-bottom: 20px;
   text-decoration: none;
 }
+
+
+
+/*border: 2px solid #d3bee1;
+  background: #fa96b5;
+  text-align: center;
+  color: #d3bee1;*/
 
 .main-nav-left-btn:hover {
   background: #c898c5;
