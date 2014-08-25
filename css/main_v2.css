@@ -779,7 +779,8 @@ background: #fa96b5;
   /*border:4px solid rgba(138, 137, 137, 0.6);*/
   /*border: 5px solid #9A1559;*/
   /*border: 5px solid #963ea2;*/
-  border: 5px solid #9c7ab6;
+  /*border: 5px solid #9c7ab6;*/
+  border: 5px solid #8e67ac;
   max-width: 60px;
   /*border-radius: 50%;*/
   border-radius: 10px;
@@ -892,7 +893,8 @@ background: #fa96b5;
 
 .main-nav-left-btn:hover {
   /*background: #CB2F77;*/
-  background: #c898c5;
+  /*background: #c898c5;*/
+  background: #9c7ab6;
   color: white;
   border: 3px solid white;
 }
